@@ -59,7 +59,7 @@ export default function Home() {
         <main className="flex flex-1 -translate-y-8 flex-col items-center justify-center py-16 sm:-translate-y-12">
           <div className="flex w-full max-w-lg items-center gap-5">
             <div
-              className="stagger-in size-20 overflow-hidden rounded-full"
+              className="stagger-in size-17 overflow-hidden rounded-full"
               style={{ animationDelay: "220ms" }}
             >
               <Image
@@ -71,11 +71,11 @@ export default function Home() {
                 className="size-full scale-115 object-cover object-[center_35%]"
               />
             </div>
-            <h1 className="text-4xl leading-tight tracking-tighter text-zinc-900 sm:text-5xl dark:text-zinc-50">
+            <h1 className="text-3xl leading-tight tracking-tighter text-zinc-900 sm:text-4xl dark:text-zinc-50">
               <span className="stagger-in block" style={{ animationDelay: "260ms" }}>
                 Javi Sánchez
               </span>
-              <span className="block text-[26px] leading-8 mt-1 tracking-tighter text-zinc-400 dark:text-zinc-500">
+              <span className="block mt-1 text-[22px] leading-7 tracking-tighter text-zinc-400 dark:text-zinc-500">
                 <span className="stagger-in block" style={{ animationDelay: "330ms" }}>
                   Founder, Engineer
                 </span>
@@ -84,7 +84,7 @@ export default function Home() {
           </div>
 
           <section className="mt-16 w-full max-w-lg">
-            <div className="space-y-5 text-justify text-[16px] leading-7 tracking-tight text-zinc-600 hyphens-auto dark:text-zinc-400">
+            <div className="space-y-5 text-justify text-[15px] leading-6 tracking-tight text-zinc-600 hyphens-auto dark:text-zinc-400">
               <p className="stagger-in" style={{ animationDelay: "400ms" }}>
                 I&apos;m a Telecom engineer by training, born in A Coruña, Spain,
                 living in San Francisco, CA.
