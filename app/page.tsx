@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type Company = {
   name: string;
   href: string;
@@ -55,16 +57,31 @@ export default function Home() {
 
       <div className="flex w-full max-w-6xl flex-1 flex-col px-6 sm:px-8">
         <main className="flex flex-1 -translate-y-8 flex-col items-center justify-center py-16 sm:-translate-y-12">
-          <h1 className="w-full max-w-lg text-4xl leading-tight tracking-tighter text-zinc-900 sm:text-5xl dark:text-zinc-50">
-            <span className="stagger-in block" style={{ animationDelay: "260ms" }}>
-              Javi Sánchez
-            </span>
-            <span className="block text-xl space-y-01 leading-8 mt-1 tracking-tight text-zinc-400 dark:text-zinc-500">
-              <span className="stagger-in block" style={{ animationDelay: "330ms" }}>
-                Founder, Engineer
+          <div className="flex w-full max-w-lg items-center gap-5">
+            <div
+              className="stagger-in size-20 overflow-hidden rounded-full"
+              style={{ animationDelay: "220ms" }}
+            >
+              <Image
+                src="/me.png"
+                alt="Javi Sánchez"
+                width={80}
+                height={80}
+                priority
+                className="size-full scale-115 object-cover object-[center_35%]"
+              />
+            </div>
+            <h1 className="text-4xl leading-tight tracking-tighter text-zinc-900 sm:text-5xl dark:text-zinc-50">
+              <span className="stagger-in block" style={{ animationDelay: "260ms" }}>
+                Javi Sánchez
               </span>
-            </span>
-          </h1>
+              <span className="block text-[26px] leading-8 mt-1 tracking-tighter text-zinc-400 dark:text-zinc-500">
+                <span className="stagger-in block" style={{ animationDelay: "330ms" }}>
+                  Founder, Engineer
+                </span>
+              </span>
+            </h1>
+          </div>
 
           <section className="mt-16 w-full max-w-lg">
             <div className="space-y-5 text-justify text-[16px] leading-7 tracking-tight text-zinc-600 hyphens-auto dark:text-zinc-400">
