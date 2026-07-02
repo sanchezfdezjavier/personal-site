@@ -35,7 +35,7 @@ export default function Home() {
     <div className="flex min-h-screen flex-col items-center font-sans dark:bg-black">
       <header className="flex w-full items-center justify-between p-8">
         <span className="stagger-in inline-block text-[15px] tracking-tighter text-zinc-900 dark:text-zinc-50">
-          Javier Sánchez
+          Javi Sánchez
         </span>
         <nav className="flex items-center gap-5 text-sm text-zinc-500 dark:text-zinc-400">
           {links.map((link, index) => (

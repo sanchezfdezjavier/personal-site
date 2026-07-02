@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Javier Sanchez",
+  title: "Javi Sánchez",
   description:
     "Founder at Rebolt. Previously founding engineer at Stack AI (acquired by Asana). Software engineer based in San Francisco.",
 };
